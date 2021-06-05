@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentAPI</name>
+    </assembly>
+    <members>
+        <member name="M:StudentAPI.Controllers.v1.StudentController.GetAllStudent(StudentAPI.Models.v1.AllStudents_v1)">
+            <summary>
+            Get a list of all students
+            </summary>
+            <param name="request">PageNumber and PageSize</param>
+            <returns>List of students</returns>
+        </member>
+        <member name="T:Integration.Common.Pagination.PaginationQuery_v1">
+            <summary>
+            This object represent pagination info
+            </summary>
+        </member>
+        <member name="P:Integration.Common.Pagination.PaginationQuery_v1.PageNumber">
+            <summary>
+            Page number
+            </summary>
+        </member>
+        <member name="P:Integration.Common.Pagination.PaginationQuery_v1.PageSize">
+            <summary>
+            Page size
+            </summary>
+        </member>
+    </members>
+</doc>
